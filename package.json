@@ -1,45 +1,45 @@
 {
     "author": {
-        "email": "fazli@sapuan.org", 
-        "name": "Fazli Sapuan", 
+        "email": "fazli@sapuan.org",
+        "name": "Fazli Sapuan",
         "url": "http://fazli.sapuan.org/"
-    }, 
+    },
     "bugs": {
         "url": "http://github.com/fuzzie360/passport-nus/issues"
-    }, 
+    },
     "dependencies": {
-        "ldapjs": "0.6.x", 
+        "ldapjs": "0.6.x",
         "pkginfo": "0.2.x",
         "validator": "1.3.x"
-    }, 
-    "description": "NUSNET authentication strategy for Passport.", 
+    },
+    "description": "NUSNET authentication strategy for Passport.",
     "devDependencies": {
         "vows": "0.6.x"
-    }, 
+    },
     "engines": {
         "node": ">= 0.4.0"
-    }, 
+    },
     "keywords": [
-        "passport", 
-        "nus", 
-        "nusnet", 
-        "auth", 
+        "passport",
+        "nus",
+        "nusnet",
+        "auth",
         "authentication"
-    ], 
+    ],
     "licenses": [
         {
-            "type": "MIT", 
+            "type": "MIT",
             "url": "http://www.opensource.org/licenses/MIT"
         }
-    ], 
-    "main": "./lib/passport-nus", 
-    "name": "passport-nus", 
+    ],
+    "main": "./lib/passport-nus",
+    "name": "passport-nus",
     "repository": {
-        "type": "git", 
+        "type": "git",
         "url": "git://github.com/fuzzie360/passport-nus.git"
-    }, 
+    },
     "scripts": {
         "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
-    }, 
-    "version": "0.0.1"
+    },
+    "version": "0.0.2"
 }
